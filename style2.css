@@ -1,0 +1,492 @@
+body{
+    margin:0px;
+    background-image: url(./images/airplane.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 750px;
+    
+  
+    
+}
+.navbar{
+    display: flex;
+   justify-content: end;
+    /* border: 1px solid black;
+    background-color: #303032; */
+    height: 50px;
+    margin-top:80px;
+    
+   
+    
+    
+}
+
+.navbar>ul{
+    list-style: none;
+    
+    
+}
+
+.navbar>ul>li>a{
+    text-decoration: none;
+    list-style: none;
+    color: black;
+   
+    font-size: 22px;
+    
+
+   
+}
+
+.navbar ul{
+    display: flex;
+    /* border: 1px solid black; */
+    /* text-align: center; */
+    /* margin-left: 400px; */
+ 
+    
+   
+    
+    
+}
+
+.navbar ul li{
+    /* border: 1px solid black; */
+    margin-left:80px;
+    /* padding: 10px; */
+    /* margin-top: 5px; */
+   
+}
+.heading{
+/* background-color: aqua; */
+margin-top:-400px;
+margin-left: 50px;
+width: 90%;
+}
+
+.heading h1{
+    font-size: 380px;
+    display: flex;
+
+}
+
+.heading h2{
+    font-size: 80px;
+    display: flex;
+    justify-content: end;
+    margin-top: -400px;
+
+}
+
+.heading3 {
+    display: flex;
+    /* background-color: aqua; */
+    margin-top: 300px;
+    
+    
+}
+
+.heading3 h3{
+    margin-left: 80px;
+    font-size: 30px;
+
+
+}
+.heading3 .btn{
+    border-radius: 55.5555555556rem;
+    font-size: 1.171875vw;
+    padding: 20px;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    margin-left: 5px;
+
+}
+
+.heading3 div{
+    margin-left: 700px;
+    margin-top: -1px;
+}
+
+.two{
+    margin-top: -10px;
+    background-color: white;
+    height: 1000px;
+    border-top: 1px solid black;
+}
+
+.two h2{
+    /* position: absolute; */
+    margin-top: 150px;
+    margin-left: 800px;
+    font-size: 80px;
+}
+
+.two .flex{
+    display: flex;
+    margin-left: 600px;
+
+}
+
+.two .flex span{
+    /* background-color: aqua; */
+    width: 40%;
+   
+
+}
+
+.two .flex .f1{
+    border-top: 1px solid black;
+}
+
+.two .flex .f2{
+    border-top: 1px solid black;
+    margin-left: 50px;
+}
+
+/* .three {
+     display: flex;
+    width: 100%;
+    background-color: blueviolet;
+} */
+
+.three div{
+    display: flex;
+/* 
+    background-color: blueviolet; */
+
+}
+
+.three .flx1{
+    display: block;
+    width:33%;
+    height: 700px;
+    background-color: black;
+}
+
+.three .flx1 p{
+    color: white;
+    font-size: 20px;
+    margin-top: 350px;
+    /* background-color: yellowgreen; */
+}
+
+.three .flx1 button{
+    /* border-radius: 50%; */
+    padding: 20px 20px 20px 20px;
+    border-radius: 55.5555555556rem;
+}
+
+.three .flx1 h3{
+    color: white;
+    font-size: 40px;
+    margin-left: 40px;
+}
+
+
+.three .flx2{
+    display: block;
+    width:33%;
+    height: 700px;
+    background-color: darkorange;
+}
+
+.three .flx2 p{
+    color: white;
+    font-size: 20px;
+    margin-top: 100px;
+    margin-left: 40px;
+    /* background-color: yellowgreen; */
+}
+
+.three .flx2 h3{
+    color: white;
+    font-size: 40px;
+    margin-left: 40px;
+    margin-top: 500px;
+}
+
+.three .flx3{
+    width:34%;
+    height: 700px;
+    background-color: #BC7155;
+}
+
+.three .flx3 h3{
+    color: white;
+    font-size: 40px;
+    margin-left: 40px;
+    margin-top: 600px;
+}
+
+.four{
+    width:100%;
+    height: 900px;
+    margin-top: -150px;
+    background-color: aqua;
+}
+
+.four h2{
+    margin-left: 150px;
+    position: relative;
+    top: 100px;
+}
+
+.four .img-text {
+    display: flex;
+    background-color: white;
+    margin-left: 200px;
+    margin-top: 130px;
+width: 80%;
+}
+
+.four img{
+margin-left: -55px;
+}
+
+.four .flexx{
+    /* display: flex; */
+    width: 25%;
+    height: 300px;
+    background-color: bisque;
+}
+.four span h6{
+    padding-top: 15px;
+    border-top: 1px solid black;
+  font-size: 30px;
+    color: black;
+    margin-left: 20px;
+
+}
+
+.four span p{
+    padding-bottom: 15px;
+    border-bottom: 1px solid black;
+  font-size: 30px;
+    color: black;
+    margin-left: 20px;
+
+}
+
+.four .flexx2{
+    /* margin-top: 400px; */
+    display: flex   ;
+ 
+    background-color: sienna    ;
+}
+
+.five{
+    display: flex;
+    width: 100%;
+    background-color: blue;
+    height: 900px;
+}
+
+.five-half{
+    
+    width: 50%;
+    background-color: black;
+    height: 900px;
+}
+
+.five-half2{
+    width: 50%;
+    height: 900px;
+    background-color: #151623;
+}
+
+.five-half2 h4{
+    color: white;
+    font-size: 75px;
+    margin-left: 70px;
+}
+
+.five-half2 p{
+    color: white;
+    font-size: 25px;
+    margin-left: 70px;
+    margin-top:500px;
+}
+.six{
+    width: 100%;
+    height: 2000px;
+    margin-top: -270px;
+    background-color: #BC7155;
+}
+
+.six h4{
+   font-size:200px;
+   margin-left: 70px;
+}
+
+.six .sub-six{
+    width: 25%;
+    margin-left: 70px;
+    font-size: 25px;
+    margin-top: -150px;
+    /* background-color: aqua; */
+  
+}
+
+/* yaha say div flex */
+ .sub-six-div div{
+     display: flex;
+ }
+
+.six .sub-six-div{
+  /* display: flex; */
+    background-color: blue;
+    width:55%;
+    height: 1000px;
+    margin-left: 800px;
+    margin-top: -300px;
+}
+
+.six .sub-six-div .divide{
+   /* display: flex; */
+   display: block;
+    background-color: sienna;
+     width:50%; 
+    height: 400px;
+    /* margin-left: 800px;
+    margin-top: -300px;  */
+}
+
+.six .sub-six-div .divide h3{
+    font-size: 25px;
+ }
+
+ .six .sub-six-div .divide p{
+    font-size: 25px;
+ }
+
+
+ .six .sub-six-div .divide-2{
+    display: flex;
+    display: block;
+     background-color: seagreen;
+      width:50%; 
+      height: 400px;
+     /* height: 1000px; */
+    /* margin-left: 500px; 
+     margin-top: -300px;  */
+ }
+ 
+ .six .sub-six-div .divide-2 h3{
+     font-size: 25px;
+  }
+ 
+  .six .sub-six-div .divide-2 p{
+     font-size: 25px;
+  }
+ 
+
+  .six .sub-six-div  .btn{
+    border-radius: 55.5555555556rem;
+    font-size: 1.171875vw;
+    padding: 20px;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    margin-left: -700px;
+
+}
+
+.seven div{
+    width: 100%;
+    height: 1100px;
+    background-color: black;
+}
+
+.seven div img{
+    width: 90%;
+    height: 1000px;
+    background-color: black;
+    margin-left: 80px;
+}
+
+.eight div{
+    height: 800px;
+ 
+    /* position: relative; */
+}
+/* .eight img{
+  
+    position: absolute; */
+    /* top: 50%;
+    left: 50%; */
+    /* transform: translate(50%, -50%); */
+    /* z-index:-1;
+} */
+
+.eight span{
+    /* position:relative;  
+    margin-top:10%;
+    left:45%; */
+  /* transform: translate(-50%, -50%); */
+  position: absolute;
+  text-align: center;
+  justify-content: center;
+  justify-items: center;
+  justify-content: flex-end;
+  margin-left:40%;
+margin-top: 20%;
+font-size: 30px;
+color: gray;
+font-weight: bold;
+
+
+}
+
+.eight button{
+    /* position:relative;
+    text-align: center;
+  justify-content:center; */
+    /* top: 50%;
+    left: 50%; */
+    /* transform: translate(-50%, -50%); */
+    position: absolute;
+    text-align: center;
+    justify-content: center;
+    justify-items: center;
+    justify-content: flex-end;
+    margin-left:35%;
+  margin-top: 23%;
+  font-size: 100px;
+  color: gray;
+  font-weight: bold;
+  background: none;
+  outline: none;
+  text-decoration: none;
+  border: none;
+color: #151623;
+}
+
+.nine div {
+    background-color: #151623;
+    height: 800px;
+
+}
+
+.nine div h3{
+    position: absolute;
+    color: white;
+    margin-left: 50px;
+    font-size: 70px;
+    margin-top: 50px;
+
+}
+
+.nine div p{
+    position: absolute;
+    color: white;
+    margin-left: 50px;
+    font-size: 30px;
+    margin-top: 200px;
+
+}
+
+
+
